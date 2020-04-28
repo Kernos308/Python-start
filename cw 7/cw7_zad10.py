@@ -1,0 +1,11 @@
+import numpy as np 
+a = np.arange(81).reshape(9,9)
+print(a)
+b=a.reshape(1,81)
+print(b)
+c=b.reshape(3,27)
+print(c)
+d=c.reshape(27,3)
+print(d)
+e=d.reshape(81,1)
+print(e)
